@@ -7,7 +7,7 @@ Soundx - Phonetic | Edit Distance - spell currection | PMI - pointwise mutual in
   
 > **Spell Checker**
 
-  - Edit Dictance
+  - Edit Distance
     - Levenshtein Edit Distance [ insert | delete | modify ]
     
       also available in NLTK,
