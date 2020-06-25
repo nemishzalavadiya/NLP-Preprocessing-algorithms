@@ -15,8 +15,9 @@ Soundx - Phonetic | Edit Distance - spell currection | PMI - pointwise mutual in
       ```python
       from nltk.metrics.distance import edit_distance
       edit_distance("apple", "appel")
-      ```
-      output - 2
+      
+      output: 2
+      ```      
         
     - Damerau levenshtain distance [ insert | delete | modify | transposition ]
       <br/>**transposition means swaping of 2 adjacent characters**
@@ -25,5 +26,24 @@ Soundx - Phonetic | Edit Distance - spell currection | PMI - pointwise mutual in
       ```python
       from nltk.metrics.distance import edit_distance
       edit_distance("apple", "appel", transpositions=False, )
+      
+      output: 2
       ```
-      output - 2
+      
+> Spell Corrector
+  
+  - Simple spell corrector using a book as reference
+    to use it just import spell_corrector.py file and use rectify() function whose syntax is
+    <br/>
+    **string rectify( word ) **
+    <br/>
+    Example:
+    ```python
+    from spell_corrector import rectify
+    word = "monney"
+    print(rectify(word))
+    
+    output: did you mean 'money'?
+    ```
+    
+      
