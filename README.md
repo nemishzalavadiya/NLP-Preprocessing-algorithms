@@ -1,11 +1,11 @@
 # NLP-Preprocessing-algorithms
 Soundx - Phonetic | Edit Distance - spell currection | PMI - pointwise mutual information [ preserve words ]
 
-> Soundex Algorithms
+> **Soundex Algorithms**
 
   - Phonetic Algorithm [ 4 Letters ( 1 character - 3 number ) ]
   
-> Spell Checker
+> **Spell Checker**
 
   - Edit Dictance
     - Levenshtein Edit Distance [ insert | delete | modify ]
@@ -30,7 +30,7 @@ Soundx - Phonetic | Edit Distance - spell currection | PMI - pointwise mutual in
       output: 2
       ```
       
-> Spell Corrector
+> **Spell Corrector**
   
   - Simple spell corrector 
       - Using a book as reference. To Use, import spell_corrector.py file and use rectify() function whose syntax is,<br/>
