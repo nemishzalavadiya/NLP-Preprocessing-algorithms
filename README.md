@@ -33,7 +33,7 @@ Soundx - Phonetic | Edit Distance - spell currection | PMI - pointwise mutual in
 > Spell Corrector
   
   - Simple spell corrector using a book as reference to use it just import spell_corrector.py file and use rectify() function whose syntax is,<br/>
-     **string rectify( word ) **<br/>
+     **string rectify( word )**<br/>
     
     Example:
     ```python
