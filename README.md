@@ -19,6 +19,7 @@ Soundx - Phonetic | Edit Distance - spell currection | PMI - pointwise mutual in
       output - 2
         
     - Damerau levenshtain distance [ insert | delete | modify | transposition ]
+      **transposion means swaping of 2 adjcent characters**
     
       same as levenshatin just pass transposition=False
       ```python
