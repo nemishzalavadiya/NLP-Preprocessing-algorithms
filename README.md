@@ -10,8 +10,7 @@ Soundx - Phonetic | Edit Distance - spell currection | PMI - pointwise mutual in
   - Edit Dictance
     - Levenshtein Edit Distance [ insert | delete | modify ]
     
-      also available in NLTK at,
-        from nltk.metrics.distance import edit_distance
+      also available in NLTK,
       
       ```python
       from nltk.metrics.distance import edit_distance
