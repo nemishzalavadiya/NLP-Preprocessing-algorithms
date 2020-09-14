@@ -1,5 +1,5 @@
 # NLP-Preprocessing-algorithms
-Soundx - Phonetic | Edit Distance - spell currection | PMI - pointwise mutual information [ preserve words ]
+Soundx - Phonetic | Edit Distance - spell correction | PMI - pointwise mutual information [ preserve words ]
 
 > **Soundex Algorithms**
 
